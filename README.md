@@ -1,4 +1,4 @@
-# **Challenge_Portfolio_Magdalena** *DareIT*
+# **Challenge_Portfolio_Magdalena**
 
 # **Task 1**
 ## Subtask 1
