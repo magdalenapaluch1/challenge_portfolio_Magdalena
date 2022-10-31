@@ -12,7 +12,9 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 ## Subtask 4
 *1. Do czego służy aplikacja?*
 
-    Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy        fizyczne). Każdy gracz ma przypisaną historię meczy, w których grał oraz można sprawdzić sumaryczny raport z meczu.
+    Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
+    Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne). 
+    Każdy gracz ma przypisaną historię meczy, w których grał oraz można sprawdzić sumaryczny raport z meczu.
     
 *2. Jakie funkcjonalności ma aplikacja?*
 
