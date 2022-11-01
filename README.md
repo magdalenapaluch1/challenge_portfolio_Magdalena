@@ -39,7 +39,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
     
 *3. Interfejs aplikacji*
 
-   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka 
+   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka większość funkcji wydaje się intuicyjna. 
 
 *4. Intuicyjność*
 
@@ -110,3 +110,9 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
       Oczekiwany rezultat: Informacja o konieczności wypełnienia pustego pola ciągiem znaków, cyfr.
    
       Priorytet:wysoki 
+      
+   **Ogólny komentarz:**
+   
+      Sekcja dodawania graczy i wszystkie pola do uzupełnienia powinny być zablokowane przeed wpiasaniem niepoprawnych danych.
+      Puste pola lub pola ze spacją, abstrakcyjne wartości wagi i wzorstu, blokada przed wpisaniem litery w pola numeryczne (numer telefonu).
+      Brakuje profilu osoby zalogowanej, gdzie moglibyśmy sprawdzić ile osób dodaliśmy do bazy, gdzie widniałyby nasze dane.
