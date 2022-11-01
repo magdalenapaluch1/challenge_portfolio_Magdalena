@@ -50,15 +50,10 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 
 *5. Błędy*
 
-   * "Niepoprawne ściąganie listy graczy w postaci pliku *.CSV"
+   * "Niepoprawne ściąganie listy graczy w postaci pliku .CSV"
     Środowisko: Windows 10, Chrome Wersja 107.0.5304.88
     Rezultat: Ściągnięcie listy graczy tylko z aktualnie otwartej strony spisu zawodników (10 rekordów).
     Oczekiwany rezultat: Ściągnięcie całej bazy zawodników.
-    Kroki: 
-      1. Otwórz stronę: https://scouts-test.futbolkolektyw.pl/pl 
-      2. Zaloguj się poprawnymn loginem i hasłem.
-      3. Otwórz zakładkę "Gracze" z bocznego menu.
-      4. Pobierzlistę graczy *.CSV, klikacjąc ikonę chmury.
     Priorytet: niski
     *Komentarz: Mam na uwadzę sytuację, że taka funkcjonalność mogła zostać tak zaprojektowana, 
                jednak ze względu na użyteczność wydaje mi się, że wygenerowanie raportu z listą dostępnych graczy w całości,
