@@ -127,9 +127,10 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
       
    **Ogólny komentarz:**
    
-   Sekcja dodawania graczy i wszystkie pola do uzupełnienia powinny być zablokowane przeed wpiasaniem niepoprawnych danych.
+   Sekcja dodawania graczy i wszystkie pola do uzupełnienia powinny być zablokowane przed wpiasaniem niepoprawnych danych.
    
-   Puste pola lub pola ze spacją, abstrakcyjne wartości wagi i wzorstu, blokada przed wpisaniem litery w pola numeryczne (numer telefonu).
+   Puste pola lub pola ze spacją, abstrakcyjne wartości wagi i wzorstu, daty, powinny być blokowane przed wpisaniem niepoprawnej danej
+   np. litery w pola numeryczne (numer telefonu).
    
    Brakuje profilu osoby zalogowanej, gdzie moglibyśmy sprawdzić ile osób dodaliśmy do bazy, gdzie widniałyby nasze dane.
    
