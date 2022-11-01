@@ -13,8 +13,8 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 *1. Do czego służy aplikacja?*
 
    Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
-   Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne). 
-   Każdy gracz ma przypisaną historię meczy, w których grał oraz można sprawdzić sumaryczny raport z meczu.
+   Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne itp.). 
+   Każdy gracz ma przypisaną historię meczy, w których grał oraz użytkownik ma możliwość sprawdzenia sumarycznych raportów z meczy.
    Raporty można uzupełniać o szczegółowe informacje dotyczące zachowania zawodnika na boisku.
     
 *2. Jakie funkcjonalności ma aplikacja?*
@@ -29,17 +29,25 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
      *UWAGA: Możliwość wejścia do zakładki "Mecze" z menu głównego, byłaby wygodna i intuicyjna.
              Ktoś może znać informacje z meczu i chcieć kogoś znaleźć, bez znajmości imienia i nazwiska gracza.*
-   * Ściąganie listy graczy w postaci plików *.CSV;
+   * Ściąganie listy graczy w postaci plików .CSV, poprzez naciśnięcie odpowiedniej ikony;
    * Wydruk listy graczy, poprzez naciśnięcie odpowiedniej ikony;
-   * Możliwość zmiany wyświetlanej tabeli z graczami (np. ukrywanie kolumn);
-   * Filtrowanie listy graczy;
+   * Możliwość zmiany wyświetlanej tabeli z graczami (np. ukrywanie kolumn), poprzez naciśnięcie odpowiedniej ikony;
+   * Filtrowanie listy graczy, poprzez naciśnięcie odpowiedniej ikony;
    
       *UWAGA: Powinna być dostępność podstawowych filtrów, czyli sortowanie alfabatyczne, rosnące, malejące (np. wiekiem, ilością meczy, raportów).*
    * Możliwość wyszukiwania zawodników.
     
 *3. Interfejs aplikacji*
 
-   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka większość funkcji wydaje się intuicyjna. 
+   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka, na stronie głównej nawigacja wydaje się łatwa i przejrzysta.
+   Kafelki u góry strony informują nas o liczbie graczy, meczy, raportów, akcji, jednak nie są one interaktywne i nie nawigują do konkretnych zbiorów.
+   Nie ma mozliwości prześledzenia meczy, ponieważ dostępna jest tylko zakładka Graczy.
+   Przechodząc dalej w menu boczne, w zakładkę "Gracze", brakuje spójności. Nie jest jasne czy istnieje możliwość kliknięcia w konkretnego gracza, 
+   zobaczenia jego danych, czy edycji informacji.
+   Zaletą aplikacji jest dostępność tłumaczenia na jezyk angielski.
+   Tekstury i kolory są poprawne, nie są jaskrawe, nie atakują użytkownika i nie rozpraszają jego uwagi.
+   Pojawiają się powiadomienia, które informują użytkownika o zmianach na stronie (np. dodając nowego zawodnika).
+   Strona jest dostępna na urządzeniach moblinych.
 
 *4. Intuicyjność*
 
@@ -112,6 +120,9 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
       Priorytet:wysoki 
       
    **Ogólny komentarz:**
-    Sekcja dodawania graczy i wszystkie pola do uzupełnienia powinny być zablokowane przeed wpiasaniem niepoprawnych danych.
+   
+   Sekcja dodawania graczy i wszystkie pola do uzupełnienia powinny być zablokowane przeed wpiasaniem niepoprawnych danych.
+   
    Puste pola lub pola ze spacją, abstrakcyjne wartości wagi i wzorstu, blokada przed wpisaniem litery w pola numeryczne (numer telefonu).
+   
    Brakuje profilu osoby zalogowanej, gdzie moglibyśmy sprawdzić ile osób dodaliśmy do bazy, gdzie widniałyby nasze dane.
