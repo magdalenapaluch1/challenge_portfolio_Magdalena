@@ -57,8 +57,9 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 *4. Intuicyjność*
 
    Z poziomu strony głównej wszystko jest jasne. Występuje opcja "Dodaj gracza", widać które informacje odsyłają nas do kolejnych podstron.
-   Z poziomu zakładki "Gracze" brak możliwości dodania nowego gracza. Mogłaby pojawić się opcja dodania gracza w tym oknie.
-   Na stronie głownej pojawiają się informacje o ilości gracze, meczy, raportów, jednak oprócz graczy nie możemy niczego innego przeglądać.
+   Z poziomu zakładki "Gracze" brak możliwości dodania nowego gracza. Mogłaby pojawić się opcja dodania gracza w tym oknie, 
+   przycisk z plusem, jako dodanie nowego gracza. Taka opcja występuje w podstronie z meczami i raportami.
+   Na stronie głownej pojawiają się informacje o ilości graczy, meczy, raportów, jednak opróczzawodników nie możemy niczego innego przeglądać.
    Powinna pojawić się opcja wejścia we wszystkie mecze i raporty, np. z bocznego menu, tam gdzie znajduje się opcja "Gracze".
    Brak możliwości usuwania graczy/meczy z listy. 
 
