@@ -85,7 +85,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
       Priorytet: niski
    
-   * "Po dodaniu gracza przekierosuje nas na stronę edycji"
+   * "Po dodaniu gracza przekierowuje nas na stronę edycji"
    
       Rezultat: Po uzupełnieniu informacji o graczu, którego dodajemy do systemu, pojawia się informacja o dodaniu i przekierowaniu do opcji edycji.
    
