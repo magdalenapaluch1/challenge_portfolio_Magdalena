@@ -24,7 +24,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
      *UWAGA: Opcja dodania gracza z widoku zakładki gracze, byłaby wygodna i intuicyjna.
       UWAGA: Możliwość edycji informacji o zawodniku, nie powinna być dostępna po naciśnięciu w konkretny wiersz (imię i nazwisko gracza), 
-             uważam że powinna się wyświetlać strona, która jest podsumowaniem, a nie edycją.*
+             uważam że powinna się wyświetlać strona, która jest podsumowaniem, a nie edycją. Opcja edycji mogłaby być dostępna tylko dla autora rekordu.*
    * Dodawanie i edcyja informacji o meczu, które są przypisane do określonego gracza;
    
      *UWAGA: Możliwość wejścia do zakładki "Mecze" z menu głównego, byłaby wygodna i intuicyjna.
@@ -42,6 +42,11 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka
 
 *4. Intuicyjność*
+
+   Z poziomu strony głównej wszystko jest jasne. Występuje opcja "Dodaj gracza", widać które informacje odsyłają nas do kolejnych stron.
+   Z poziomu zakładki "Gracze" brak możliwości dodania nowego gracza. Mogłaby pojawić się opcja dodania gracza w tym oknie.
+   Na stronie głownej pojawiają się informacje o ilości gracze, maczy, raportów, jednak oprócz graczy nie możemy niczego innego przeglądać.
+   Powinna pojawić się opcja wejścia we wszystkie mecze i raporty, np. z bocznego menu, tam gdzie znajduje się opcja "Gracze".
 
 *5. Błędy*
 
@@ -62,4 +67,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
     Rezultat: Najechanie na wiersz z graczem nie wskazuje na możliwość kliknięcia.
     Oczekiwany rezultat: Pojawienie się odsyłacza do indywidualnej strony zawodnika.
     Priorytet: niski
-   * 
+   * " Po dodaniu gracza przekierosuje nas na stronę edycji"
+    Rezultat: Po uzupełnieniu informacji o graczu, którego dodajemy do systemu, pojawia się informacja o dodaniu i przekierowaniu do opcji edycji.
+    Oczekiwany rezultat: Przekierowanie na stronę z ogólnym profilem gracza.
+    Priorytet: średni
