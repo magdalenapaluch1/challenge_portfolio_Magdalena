@@ -51,18 +51,28 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 *5. Błędy*
 
    * "Niepoprawne ściąganie listy graczy w postaci pliku .CSV"
-    Środowisko: Windows 10, Chrome Wersja 107.0.5304.88
-    Rezultat: Ściągnięcie listy graczy tylko z aktualnie otwartej strony spisu zawodników (10 rekordów).
-    Oczekiwany rezultat: Ściągnięcie całej bazy zawodników.
-    Priorytet: niski
-    *Komentarz: Mam na uwadzę sytuację, że taka funkcjonalność mogła zostać tak zaprojektowana, 
+   
+   Rezultat: Ściągnięcie listy graczy tylko z aktualnie otwartej strony spisu zawodników (10 rekordów).
+   
+   Oczekiwany rezultat: Ściągnięcie całej bazy zawodników.
+   
+   Priorytet: niski
+   
+   *Komentarz: Mam na uwadzę sytuację, że taka funkcjonalność mogła zostać tak zaprojektowana, 
                jednak ze względu na użyteczność wydaje mi się, że wygenerowanie raportu z listą dostępnych graczy w całości,
                byłoby bardziej optymalne (przeniesienie do innej aplikacji/bazy).*
    * "W sekcji "Gracze" po najechaniu na zawodnika nie wyświetla się odsyłacz do indywidyulanej strony"
-    Rezultat: Najechanie na wiersz z graczem nie wskazuje na możliwość kliknięcia.
-    Oczekiwany rezultat: Pojawienie się odsyłacza do indywidualnej strony zawodnika.
-    Priorytet: niski
+   
+   Rezultat: Najechanie na wiersz z graczem nie wskazuje na możliwość kliknięcia.
+   
+   Oczekiwany rezultat: Pojawienie się odsyłacza do indywidualnej strony zawodnika.
+   
+   Priorytet: niski
+   
    * " Po dodaniu gracza przekierosuje nas na stronę edycji"
-    Rezultat: Po uzupełnieniu informacji o graczu, którego dodajemy do systemu, pojawia się informacja o dodaniu i przekierowaniu do opcji edycji.
-    Oczekiwany rezultat: Przekierowanie na stronę z ogólnym profilem gracza.
-    Priorytet: średni
+   
+   Rezultat: Po uzupełnieniu informacji o graczu, którego dodajemy do systemu, pojawia się informacja o dodaniu i przekierowaniu do opcji edycji.
+   
+   Oczekiwany rezultat: Przekierowanie na stronę z ogólnym profilem gracza.
+   
+   Priorytet: średni
