@@ -39,7 +39,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
     
 *3. Interfejs aplikacji*
 
-   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka
+   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka 
 
 *4. Intuicyjność*
 
@@ -47,6 +47,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    Z poziomu zakładki "Gracze" brak możliwości dodania nowego gracza. Mogłaby pojawić się opcja dodania gracza w tym oknie.
    Na stronie głownej pojawiają się informacje o ilości gracze, maczy, raportów, jednak oprócz graczy nie możemy niczego innego przeglądać.
    Powinna pojawić się opcja wejścia we wszystkie mecze i raporty, np. z bocznego menu, tam gdzie znajduje się opcja "Gracze".
+   Brak możliwości usuwania graczy/meczy z listy. 
 
 *5. Błędy*
 
@@ -86,3 +87,26 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
       Priorytet: średni
       
+   * "W oknie "Rozpocznij mecz" można rozpocząć więcej niż 2 połowy meczu."
+      
+      Rezultat: Po uruchomieniu meczu, klikając z przycisk zegarka, można ustawić większą liczbę połów niż dwie.
+   
+      Oczekiwany rezultat: Dostępne są tylko dwie połowy meczu.
+   
+      Priorytet: wysoki
+      
+  * "W oknie dodawania gracza, przycisk "Clear" nie usuwa informacji z formulkarza."
+      
+      Rezultat: Po kliknięciu w przycisk "Clear" w formularzu edycji informacji o graczu, nie następuje usunięcie danych.
+   
+      Oczekiwany rezultat: Usunięcie danych w formularzu.
+   
+      Priorytet: średni
+      
+   * "Możliwość dodania gracza bez danych"
+      
+      Rezultat: Stworzenie konta gracza, po wpisaniu SPACJI w puste pola.
+   
+      Oczekiwany rezultat: Informacja o konieczności wypełnienia pustego pola ciągiem znaków, cyfr.
+   
+      Priorytet:wysoki 
