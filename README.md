@@ -17,7 +17,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 
    Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
    Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne itp.). 
-   Każdy gracz ma przypisaną historię meczy, w których grał oraz użytkownik ma możliwość sprawdzenia sumarycznych raportów z meczy.
+   Każdy gracz ma przypisaną historię meczy, w których grał oraz użytkownik ma możliwość sprawdzenia sumarycznych raportów z meczów.
    Raporty można uzupełniać o szczegółowe informacje dotyczące zachowania zawodnika na boisku.
     
 *2. Jakie funkcjonalności ma aplikacja?*
