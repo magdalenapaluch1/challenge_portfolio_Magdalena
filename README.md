@@ -70,10 +70,19 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
       Priorytet: niski
    
-   * " Po dodaniu gracza przekierosuje nas na stronę edycji"
+   * "Po dodaniu gracza przekierosuje nas na stronę edycji"
    
       Rezultat: Po uzupełnieniu informacji o graczu, którego dodajemy do systemu, pojawia się informacja o dodaniu i przekierowaniu do opcji edycji.
    
       Oczekiwany rezultat: Przekierowanie na stronę z ogólnym profilem gracza.
    
       Priorytet: średni
+      
+   * "Podczas edycji raportu z meczu, wprowadzaniu zmian, przycisk "SAVE" nachodzi na sekcję "Dodatkowy komentarz"
+   
+      Rezultat: Po uzupełnieniu informacj o meczu, przycisk "SAVE" nachodzi na inne pola tekstowe.
+   
+      Oczekiwany rezultat: Przycisk "SAVE" pozostaje w jednym miejscu.
+   
+      Priorytet: średni
+      
