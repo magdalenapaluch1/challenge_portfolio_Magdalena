@@ -15,19 +15,28 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
     Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
     Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne). 
     Każdy gracz ma przypisaną historię meczy, w których grał oraz można sprawdzić sumaryczny raport z meczu.
+    Raporty można uzupełniać o szczegółowe informacje dotyczące zachowania zawodnika na boisku.
     
 *2. Jakie funkcjonalności ma aplikacja?*
 
     W aplikacji można wyróżnić następujące funkcjonalności:
-    * Dodawanie gracza do listy;
-    * Zmianę jezyka aplikacji na Angielski;
-    * Ściąganie rlisty graczy w postaci plików *.CSV
-    * Wydruk listy graczy
-    * Możliwość zmiany wyświetlanej tabeli z graczami (np. ukrywanie kolumn)
-    * Filtrowanie listy graczy
-    * 
+    * Dodawanie gracza do listy; 
+        UWAGA: Opcja dodania gracza z widoku zakładki gracze, byłaby wygodna i intuicyjna.
+        UWAGA: Możliwość edycji informacji o zawodniku, nie powinna być dostępna po naciśnięciu w konkretny wiersz (imię i nazwisko gracza), 
+               uważam że powinna się wyświetlać strona, która jest podsumowaniem, a nie edycją.
+    * Dodawanie i edcyja informacji o meczu, które są przypisane do określonego gracza;
+        UWAGA: Możliwość wejścia do zakładki "Mecze" z menu głównego, byłaby wygodna i intuicyjna.
+               Ktoś może znać informacje z meczu i chcieć kogoś znaleźć, bez znajmości imienia i nazwiska gracza.
+    * Ściąganie listy graczy w postaci plików *.CSV;
+    * Wydruk listy graczy, poprzez naciśnięcie odpowiedniej ikony;
+    * Możliwość zmiany wyświetlanej tabeli z graczami (np. ukrywanie kolumn);
+    * Filtrowanie listy graczy;
+        UWAGA: Powinna być dostępność podstawowych filtrów, czyli sortowanie alfabatyczne, rosnące, malejące (np. wiekiem, ilością meczy, raportów).
+    * Możliwość wyszukiwania zawodników.
     
 *3. Interfejs aplikacji*
+
+
 
 *4. Intuicyjność*
 
