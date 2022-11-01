@@ -123,7 +123,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
       Oczekiwany rezultat: Informacja o konieczności wypełnienia pustego pola ciągiem znaków, cyfr.
    
-      Priorytet:wysoki 
+      Priorytet: wysoki 
       
    **Ogólny komentarz:**
    
