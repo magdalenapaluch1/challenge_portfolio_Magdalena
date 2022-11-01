@@ -41,7 +41,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 
    * Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka, na stronie głównej nawigacja wydaje się łatwa i przejrzysta.
    * Kafelki u góry strony informują nas o liczbie graczy, meczy, raportów, akcji, jednak nie są one interaktywne i nie nawigują do konkretnych zbiorów. 
-   * Nie ma mozliwości prześledzenia meczy, ponieważ dostępna jest tylko zakładka Graczy.
+   * Nie ma możliwości prześledzenia meczy, ponieważ dostępna jest tylko zakładka Graczy.
    * Przechodząc dalej w menu boczne, w zakładkę "Gracze", brakuje spójności. Nie jest jasne czy istnieje możliwość kliknięcia w konkretnego gracza, 
      zobaczenia jego danych, czy edycji informacji.
    * Zaletą aplikacji jest dostępność tłumaczenia na jezyk angielski.
