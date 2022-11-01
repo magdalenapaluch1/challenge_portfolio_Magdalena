@@ -12,14 +12,14 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 ## Subtask 4
 *1. Do czego służy aplikacja?*
 
-    Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
-    Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne). 
-    Każdy gracz ma przypisaną historię meczy, w których grał oraz można sprawdzić sumaryczny raport z meczu.
-    Raporty można uzupełniać o szczegółowe informacje dotyczące zachowania zawodnika na boisku.
+   Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
+   Znajdziemy w niej szczegółowe informacje o konkretnym piłkarzu (pochodzenie, pozycja, cechy fizyczne). 
+   Każdy gracz ma przypisaną historię meczy, w których grał oraz można sprawdzić sumaryczny raport z meczu.
+   Raporty można uzupełniać o szczegółowe informacje dotyczące zachowania zawodnika na boisku.
     
 *2. Jakie funkcjonalności ma aplikacja?*
 
-    W aplikacji można wyróżnić następujące funkcjonalności:
+   **W aplikacji można wyróżnić następujące funkcjonalności:**
     * Dodawanie gracza do listy; 
         UWAGA: Opcja dodania gracza z widoku zakładki gracze, byłaby wygodna i intuicyjna.
         UWAGA: Możliwość edycji informacji o zawodniku, nie powinna być dostępna po naciśnięciu w konkretny wiersz (imię i nazwisko gracza), 
@@ -36,13 +36,13 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
     
 *3. Interfejs aplikacji*
 
-
+   Strona jest prosta, nie za bardzo rozbudowana. Na pierwszy rzut oka
 
 *4. Intuicyjność*
 
 *5. Błędy*
 
-    * "Niepoprawne ściąganie listy graczy w postaci pliku *.CSV"
+   * "Niepoprawne ściąganie listy graczy w postaci pliku *.CSV"
     Środowisko: Windows 10, Chrome Wersja 107.0.5304.88
     Rezultat: Ściągnięcie listy graczy tylko z aktualnie otwartej strony spisu zawodników (10 rekordów).
     Oczekiwany rezultat: Ściągnięcie całej bazy zawodników.
@@ -52,8 +52,11 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
       3. Otwórz zakładkę "Gracze" z bocznego menu.
       4. Pobierzlistę graczy *.CSV, klikacjąc ikonę chmury.
     Priorytet: niski
-    Komentarz: Mam na uwadzę sytuację, że taka funkcjonalność mogła zostać tak zaprojektowana, 
+    *Komentarz: Mam na uwadzę sytuację, że taka funkcjonalność mogła zostać tak zaprojektowana, 
                jednak ze względu na użyteczność wydaje mi się, że wygenerowanie raportu z listą dostępnych graczy w całości,
-               byłoby bardziej optymalne (przeniesienie do innej aplikacji/bazy).
-    
-    
+               byłoby bardziej optymalne (przeniesienie do innej aplikacji/bazy).*
+   * "W sekcji "Gracze" po najechaniu na zawodnika nie wyświetla się odsyłacz do indywidyulanej strony"
+    Rezultat: Najechanie na wiersz z graczem nie wskazuje na możliwość kliknięcia.
+    Oczekiwany rezultat: Pojawienie się odsyłacza do indywidualnej strony zawodnika.
+    Priorytet: niski
+   * 
