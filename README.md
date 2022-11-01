@@ -21,17 +21,17 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 
    **W aplikacji można wyróżnić następujące funkcjonalności:**
    * Dodawanie gracza do listy; 
-        UWAGA: Opcja dodania gracza z widoku zakładki gracze, byłaby wygodna i intuicyjna.
-        UWAGA: Możliwość edycji informacji o zawodniku, nie powinna być dostępna po naciśnięciu w konkretny wiersz (imię i nazwisko gracza), 
-               uważam że powinna się wyświetlać strona, która jest podsumowaniem, a nie edycją.
+       *UWAGA: Opcja dodania gracza z widoku zakładki gracze, byłaby wygodna i intuicyjna.
+       UWAGA: Możliwość edycji informacji o zawodniku, nie powinna być dostępna po naciśnięciu w konkretny wiersz (imię i nazwisko gracza), 
+               uważam że powinna się wyświetlać strona, która jest podsumowaniem, a nie edycją.*
    * Dodawanie i edcyja informacji o meczu, które są przypisane do określonego gracza;
-        UWAGA: Możliwość wejścia do zakładki "Mecze" z menu głównego, byłaby wygodna i intuicyjna.
-               Ktoś może znać informacje z meczu i chcieć kogoś znaleźć, bez znajmości imienia i nazwiska gracza.
+       *UWAGA: Możliwość wejścia do zakładki "Mecze" z menu głównego, byłaby wygodna i intuicyjna.
+               Ktoś może znać informacje z meczu i chcieć kogoś znaleźć, bez znajmości imienia i nazwiska gracza.*
    * Ściąganie listy graczy w postaci plików *.CSV;
    * Wydruk listy graczy, poprzez naciśnięcie odpowiedniej ikony;
    * Możliwość zmiany wyświetlanej tabeli z graczami (np. ukrywanie kolumn);
    * Filtrowanie listy graczy;
-        UWAGA: Powinna być dostępność podstawowych filtrów, czyli sortowanie alfabatyczne, rosnące, malejące (np. wiekiem, ilością meczy, raportów).
+       *UWAGA: Powinna być dostępność podstawowych filtrów, czyli sortowanie alfabatyczne, rosnące, malejące (np. wiekiem, ilością meczy, raportów).*
    * Możliwość wyszukiwania zawodników.
     
 *3. Interfejs aplikacji*
