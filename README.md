@@ -109,7 +109,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    
       Priorytet: wysoki
       
-  * "W oknie dodawania gracza, przycisk "Clear" nie usuwa informacji z formulkarza."
+  * "W oknie dodawania gracza, przycisk "Clear" nie usuwa informacji z formularza."
       
       Rezultat: Po kliknięciu w przycisk "Clear" w formularzu edycji informacji o graczu, nie następuje usunięcie danych.
    
