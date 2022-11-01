@@ -11,7 +11,7 @@ Wziełam udział w projekcie, bo lubię nowe wyzwania. Od naszych cotygodniowych
 która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i z niecierpliwością będę wyczekiwać kolejnych tasków. :)
 ## Subtask 4
 
-**Aplikacja którą testujemy: https://scouts-test.futbolkolektyw.pl/pl **
+**Aplikacja którą testujemy: https://scouts-test.futbolkolektyw.pl/pl**
 
 *1. Do czego służy aplikacja?*
 
