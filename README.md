@@ -29,7 +29,7 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
      
      *UWAGA: Możliwość edycji informacji o zawodniku nie powinna być dostępna po naciśnięciu w konkretny wiersz (imię i nazwisko gracza), 
              uważam że powinna się wyświetlać strona, która jest podsumowaniem, a nie edycją. Opcja edycji mogłaby być dostępna tylko dla autora rekordu.*
-   * Dodawanie i edcyja informacji o meczu, które są przypisane do określonego gracza;
+   * Dodawanie i edycja informacji o meczu, które są przypisane do określonego gracza;
    
      *UWAGA: Możliwość wejścia do zakładki "Mecze" z menu głównego, byłaby wygodna i intuicyjna.
              Ktoś może znać informacje z meczu i chcieć kogoś znaleźć, bez znajmości imienia i nazwiska gracza.*
