@@ -43,17 +43,18 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    * Kafelki u góry strony informują nas o liczbie graczy, meczy, raportów, akcji, jednak nie są one interaktywne i nie nawigują do konkretnych zbiorów. 
    * Nie ma mozliwości prześledzenia meczy, ponieważ dostępna jest tylko zakładka Graczy.
    * Przechodząc dalej w menu boczne, w zakładkę "Gracze", brakuje spójności. Nie jest jasne czy istnieje możliwość kliknięcia w konkretnego gracza, 
-   zobaczenia jego danych, czy edycji informacji.
+     zobaczenia jego danych, czy edycji informacji.
    * Zaletą aplikacji jest dostępność tłumaczenia na jezyk angielski.
    * Tekstury i kolory są poprawne, nie są jaskrawe, nie atakują użytkownika i nie rozpraszają jego uwagi.
    * Pojawiają się powiadomienia, które informują użytkownika o zmianach na stronie (np. dodając nowego zawodnika).
    * Strona jest dostępna na urządzeniach moblinych.
+   * Korzystając z DevTools Lighthouse przeglądarki Chrome, Performance dla urządzeń mobilnych jest niższy (ok. 75), niż dla przeglądarek desktopowych (ok. 88).
 
 *4. Intuicyjność*
 
-   Z poziomu strony głównej wszystko jest jasne. Występuje opcja "Dodaj gracza", widać które informacje odsyłają nas do kolejnych stron.
+   Z poziomu strony głównej wszystko jest jasne. Występuje opcja "Dodaj gracza", widać które informacje odsyłają nas do kolejnych podstron.
    Z poziomu zakładki "Gracze" brak możliwości dodania nowego gracza. Mogłaby pojawić się opcja dodania gracza w tym oknie.
-   Na stronie głownej pojawiają się informacje o ilości gracze, maczy, raportów, jednak oprócz graczy nie możemy niczego innego przeglądać.
+   Na stronie głownej pojawiają się informacje o ilości gracze, meczy, raportów, jednak oprócz graczy nie możemy niczego innego przeglądać.
    Powinna pojawić się opcja wejścia we wszystkie mecze i raporty, np. z bocznego menu, tam gdzie znajduje się opcja "Gracze".
    Brak możliwości usuwania graczy/meczy z listy. 
 
@@ -126,3 +127,5 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    Puste pola lub pola ze spacją, abstrakcyjne wartości wagi i wzorstu, blokada przed wpisaniem litery w pola numeryczne (numer telefonu).
    
    Brakuje profilu osoby zalogowanej, gdzie moglibyśmy sprawdzić ile osób dodaliśmy do bazy, gdzie widniałyby nasze dane.
+   
+   W oknie logowania, w polu "Login" powinna się pojawić informacja, że konieczne jest wpisanie adresu e-mail.
