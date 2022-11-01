@@ -10,6 +10,9 @@ Nazywam się Magda i od dłuższego czasu staram się wejść w świat testowani
 Wziełam udział w projekcie, bo lubię nowe wyzwania. Od naszych cotygodniowych spotkań i zadań oczekuję ogromu praktycznej wiedzy, 
 która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i z niecierpliwością będę wyczekiwać kolejnych tasków. :)
 ## Subtask 4
+
+**Aplikacja którą testujemy: https://scouts-test.futbolkolektyw.pl/pl **
+
 *1. Do czego służy aplikacja?*
 
    Aplikacja służy do gromadzenia informacji o graczach/piłkarzach. 
