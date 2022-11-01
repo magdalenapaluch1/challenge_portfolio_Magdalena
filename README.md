@@ -2,7 +2,7 @@
 
 # **Task 1**
 ## Subtask 1
-Podczas testu wiedzy zdobyłam 9 punktów.
+Podczas testu wiedzy zdobyłam 9 punktów. 🏆
 ## Subtask 3
 Cześć świecie DareIT! :upside_down_face:
 
