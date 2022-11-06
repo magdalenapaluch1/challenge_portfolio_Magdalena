@@ -153,7 +153,7 @@ Test cases are important to systematize what we plan to do / test.
 Test cases allow us to determine the functionality coverage.
 
 We can create them at the stage when the product documentation is not yet fully ready, 
-by the principle that * "Early testing saves time and money" *.
+by the principle that **Early testing saves time and money**.
 
 Test cases help get to know the application.
 
