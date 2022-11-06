@@ -135,3 +135,26 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
    Brakuje profilu osoby zalogowanej, gdzie moglibyśmy sprawdzić ile osób dodaliśmy do bazy, gdzie widniałyby nasze dane.
    
    W oknie logowania, w polu "Login" powinna się pojawić informacja, że konieczne jest wpisanie adresu e-mail.
+   
+# **Task 2**
+## Subtask 1
+
+🍀 [Test Case's based on User Stories](https://docs.google.com/spreadsheets/d/1Mt6FQfttUFqRPDLyb7hc2ceToqsZNYIl9pZsS1tunlI/edit?usp=share_link) 
+
+## Subtask 2
+
+🍀 [Test Case's based on experience](https://docs.google.com/spreadsheets/d/1589dqUD6PTWXDCuFfejT0MtGR948kEbCJlDr_RXLel8/edit?usp=sharing) 
+
+## Subtask 3
+[Po co piszemy Test Case'y, komu to potrzebne? / Why are we writing Test Cases, who needs them?](https://www.youtube.com/watch?v=OO3FANjwKHY&t=1s) 🙈
+
+Test cases are important to systematize what we plan to do / test.
+
+Test cases allow us to determine the functionality coverage.
+
+We can create them at the stage when the product documentation is not yet fully ready, 
+by the principle that * "Early testing saves time and money" *.
+
+Test cases help get to know the application.
+
+Test cases find defects in the product.
