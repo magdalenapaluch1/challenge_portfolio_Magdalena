@@ -143,9 +143,11 @@ która pozwoli mi poczuć się jak w prawdziwym projekcie. Jestem zaciekawiona i
 
 ## Subtask 2
 
-🍀 [Test Case's based on experience](https://docs.google.com/spreadsheets/d/1589dqUD6PTWXDCuFfejT0MtGR948kEbCJlDr_RXLel8/edit?usp=sharing) 
-
 💡 [Mind map](https://drive.google.com/file/d/1Ss96V3r3SxSOSsJsx9XGYkWmtub9qNM9/view?usp=sharing) 
+
+🍀 [Test Case's based on experience_Website in English 🇺🇸](https://docs.google.com/spreadsheets/d/1589dqUD6PTWXDCuFfejT0MtGR948kEbCJlDr_RXLel8/edit?usp=sharing) 
+
+🍀 [Test Case's based on experience_Website in Polish 🇵🇱](https://docs.google.com/spreadsheets/d/1_b5FHHD66fsbNYWxK1uss5EWN4cLvsm8mHx3zcd7j2g/edit?usp=sharing)
 
 ## Subtask 3
 [Po co piszemy Test Case'y, komu to potrzebne? / Why are we writing Test Cases, who needs them?](https://www.youtube.com/watch?v=OO3FANjwKHY&t=1s) 🙈
@@ -160,8 +162,4 @@ by the principle that **Early testing saves time and money**.
 Test cases help get to know the application.
 
 Test cases find defects in the product.
-
-## Subtask 4
-
-🍀 [Test Case's based on experience](https://docs.google.com/spreadsheets/d/1589dqUD6PTWXDCuFfejT0MtGR948kEbCJlDr_RXLel8/edit?usp=sharing) 
 
