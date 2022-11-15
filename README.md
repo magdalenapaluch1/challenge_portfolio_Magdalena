@@ -163,3 +163,15 @@ Test cases help get to know the application.
 
 Test cases find defects in the product.
 
+# **Task 32**
+## Subtask 2
+
+💡 [Mind map](https://drive.google.com/file/d/1Ss96V3r3SxSOSsJsx9XGYkWmtub9qNM9/view?usp=sharing) 
+
+🍀 [Test Case's based on experience_Website in English 🇺🇸](https://docs.google.com/spreadsheets/d/1589dqUD6PTWXDCuFfejT0MtGR948kEbCJlDr_RXLel8/edit?usp=sharing) 
+
+🍀 [Test Case's based on experience_Website in Polish 🇵🇱](https://docs.google.com/spreadsheets/d/1_b5FHHD66fsbNYWxK1uss5EWN4cLvsm8mHx3zcd7j2g/edit?usp=sharing)
+
+## Subtask 3
+
+📈📉 [Test Report](https://drive.google.com/file/d/1VGMOqnqYJ60v0evxkWfCRPHHpuTganN6/view?usp=sharing)
