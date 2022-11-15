@@ -163,7 +163,7 @@ Test cases help get to know the application.
 
 Test cases find defects in the product.
 
-# **Task 32**
+# **Task 3**
 ## Subtask 2
 
 💡 [Mind map](https://drive.google.com/file/d/1Ss96V3r3SxSOSsJsx9XGYkWmtub9qNM9/view?usp=sharing) 
