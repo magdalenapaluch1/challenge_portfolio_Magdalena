@@ -175,3 +175,50 @@ Test cases find defects in the product.
 ## Subtask 3
 
 📈📉 [Test Report](https://drive.google.com/file/d/1VGMOqnqYJ60v0evxkWfCRPHHpuTganN6/view?usp=sharing)
+
+# **Task 4**
+## Subtask 2
+
+*1. What is this app for? What is the purpose of this app?*
+
+💡 The Focusly app focuses on learning how to meditate and breathe properly. 
+
+   Podcasts and recordings allow you to calm down, improve creativity, fight with lack of concentration, anxiety or bad sleep.
+    
+   It helps to achieve the goals selected in the application and builds the habit of regularity.
+
+*2. Who is going to be the end user of the application?*  
+
+💆‍♀️💆The end user of this application can be any person who wants to learn to meditate or people who already have some experience in meditating.
+
+*3. Do you think the application is user friendly?* 
+
+🍀 The application has a friendly look, the colors are subdued, they don't attack the user. 
+
+   The application doesn't consume too much energy, it can be run in the background. 
+   
+   The application doesn't have its equivalent in the form of a website where data could be synchronized. 
+   
+   The advantage of the application is the ability to delete an account from the application level.
+
+*4. How would you improve the application? What would you improve about it? Do you have any idea for additional functionality?*
+
+🌚As an additional functionality I would introduce:
+
+     🌕 The ability to set the playback speed;
+
+     🌖 The ability to scroll through the lessons with your finger (swipe right - swpie left for next lessons or previous);
+
+     🌗 In breathing tasks, add the possibility of obtaining a sound that tells us to inhale, exhale;
+
+     🌘 The first time when user enter the application, add a tutorial (understand what to do with the app);
+
+     🌑 Add a search engine where you could search for authors or specific recordings;
+
+     🌒 The ability to create a playlist;
+     
+     🌓 The ability to change the profile picture;
+
+*5. What differences do you see between testing a web application and a native one?* 
+
+
