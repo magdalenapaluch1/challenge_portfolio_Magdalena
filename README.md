@@ -179,6 +179,7 @@ Test cases find defects in the product.
 # **Task 4**
 ## Subtask 2
 
+🪳 [Bug Report](https://docs.google.com/spreadsheets/d/1HwSalkbEryYPYpr7G_5F2mwVYxa2ND41hCxHNOjhizE/edit?usp=sharing)
 
 ## Subtask 3
 
@@ -208,20 +209,22 @@ Test cases find defects in the product.
 
 🌚As an additional functionality I would introduce:
 
-     🌕 The ability to set the playback speed;
+   🌕 The ability to set the playback speed;
 
-     🌖 The ability to scroll through the lessons with your finger (swipe right - swpie left for next lessons or previous);
+   🌖 The ability to scroll through the lessons with your finger (swipe right - swpie left for next lessons or previous);
 
-     🌗 In breathing tasks, add the possibility of obtaining a sound that tells us to inhale, exhale;
+   🌗 In breathing tasks, add the possibility of obtaining a sound that tells us to inhale, exhale;
 
-     🌘 The first time when user enter the application, add a tutorial (understand what to do with the app);
+   🌘 The first time when user enter the application, add a tutorial (understand what to do with the app);
 
-     🌑 Add a search engine where you could search for authors or specific recordings;
-
-     🌒 The ability to create a playlist;
+   🌒 The ability to create a playlist;
      
-     🌓 The ability to change the profile picture;
+   🌓 The ability to change the profile picture;
+     
+   🌔 Availability of foreign-language podcasts in the Polish version of the application without changing the language
 
 *5. What differences do you see between testing a web application and a native one?* 
 
-
+When we are testing web applications, we can receive information from the server in the form of code. 
+Testing web applications takes place in different browsers, while testing mobile applications takes place on different devices with different operating systems. 
+In testing mobile applications, we can take into account factors such as: battery levels, push notifications, sensors built into the device.
