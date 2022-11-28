@@ -228,3 +228,140 @@ Test cases find defects in the product.
 When we are testing web applications, we can receive information from the server in the form of code. 
 Testing web applications takes place in different browsers, while testing mobile applications takes place on different devices with different operating systems. 
 In testing mobile applications, we can take into account factors such as: battery levels, push notifications, sensors built into the device.
+
+# **Task 5**
+## Subtask 1
+
+📊✒️Finished course "Kurs SQL od podstaw"](https://www.udemy.com/course/kurs-sql-od-podstaw/)
+
+**Typ zapytania:**
+SELECT/INSERT/UPDATE/DELETE - typ zapytania
+
+1. **FROM** - źródło pobrania danych
+2. **WHERE** - warunek
+3. **GROUP BY** - grupowanie rekordów
+4. **ORDER BY** - sortowanie
+
+**SELECT** - wybieranie danych z bazy danych
+
+*SELECT column1, column2, ... FROM table_name;*
+
+**SELECT DISTINCT** - zwraca tylko odrębne wartości, zwraca unikalne wartości, bez duplikatów
+
+*SELECT DISTINCT column1, column2, ... FROM table_name;*
+
+**WHERE** - filtruje rekordy, po zadeklarowaniu warunku
+
+*SELECT column1, column2, ... FROM table_name;*
+*WHERE condition;*
+
+**Operatory AND, OR, NOT**
+
+**AND** - wszystkie warunki muszą być prawdą
+
+**OR** - którykolwiek warunek jest PRAWDZIWY
+
+**NOT** - nieprawdziwy warunek
+
+**IS NULL** - równa zero, pusta kolumna
+
+**IS NOT NULL** - nie jest równa zerem, pełne kolumny
+
+**TOP** - liczba rekordów do zwórcenia
+
+**LIMIT** - obsługiwany przez MySQL
+
+*SELECT column1, column2, ... FROM table_name*
+*WHERE condition1 AND condition2;*
+
+*SELECT column1, column2, ... FROM table_name*
+*WHERE condition IS NULL;*
+
+*SELECT TOP number column_name(s) FROM table_name*
+*WHERE condition1;*
+
+*SELECT column_name(s)FROM table_nameWHERE condition LIMIT number;*
+
+**MIN()** najmniejsza wartość z wybranej kolumny
+
+**MAX()** największa wartość z wybranej kolumny
+
+*SELECT MIN (column_name) FROM table_name WHERE condition1;*
+
+**COUNT()** - podaje liczbę wierszy spełniających warunek
+
+*SELECT COUNT (column_name) FROM table_name WHERE condition1;*
+
+**AVG()** - zwraca średnią wartość kolumny numerycznej
+
+*SELECT AVG (column_name) FROM table_name WHERE condition1;*
+
+**SUM()** - całkowita suma kolumny numerycznej
+
+*SELECT SUM (column_name) FROM table_name WHERE condition1;*
+
+**LIKE** - w klauzuli WHERE, do wyszukiwania określonego wzorca
+
+*SELECT column1, column2, ... FROM table_name WHERE columnN LIKE pattern;*
+
+**BETWEEN** - wybiera wartości z danego zakresu.
+
+*SELECT column_name(S) FROM table_name WHERE column_name BETWEEN value1 AND value2;*
+
+**Aliasy** - nadawanie kolumnie w tabeli tymczasowej nazwy, 
+nazwa ta zostaje na czas aktualnego zapytania
+
+*SELECT column_name AS alias-name FROM table_name;*
+
+**ORDER BY** - sortowanie zestawu wyników w kolejności rosnącej lub majlejące
+rosnąco **ASC**, malejąco **DESC**
+
+*SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;*
+
+**Pokazanie całej zawartości tabeli:**
+
+*SELECT * FROM categories;*
+
+* - to ALL
+
+Wyszukiwanie stringów zawsze w cudzysłowie
+
+**%** oznacza dowolną literę
+**_** pozwoli wskazać konkretne miejsce litery w wyrazie
+
+**INSERT INTO** - służy do wstawiania nowych rekordów do tabeli
+
+*INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stvanger', 'Norway');*
+
+**UPDATE** służy do aktualizacji istniejących rekordów  w tabeli
+
+*UPDATE Customers SET ContactName = 'Alfred Schmidt', City = 'Frankfurt' WHERE CustomerID = 1*
+
+**DELETE** - służy do usuwania istniejących rekordów w tabeli
+
+*DELETE FROM Customers WHERE CudtomerName = 'Alfreds Futterkiste'*
+
+**GRUOP BY** pozwala na grupowanie rekordów według róznych zasad
+
+*SELECT COUNT (CustomerID), Country FROM Customers GROUP BY Country;*
+
+**HAVING** zwraca podsumowanie dla całej tabeli, wywołana funkcja GROUP BY
+
+*SELECT COUNT (CustomerID), Country FROM Customers GROUP BY Country; HAVING COUNT (CustomerID) >5;*
+
+**INNER JOIN** łączenie wierszy z conajmniej dwóch tabel na podstawie powiązanej między nimi kolumny
+
+*SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID*
+
+**LEFT JOIN** zwraca wszystkie rekordy z lewej tabeli oraz pasujące rekordy z prawej tabeli
+
+*SELECT column_name(s) FROM table1 (lewa tabelka) LEFT JOIN table2 (prawa tabelka) ON table1.column_name = table2.column_name*
+
+**RIGHT JOIN** zwraca wszystkie rekordy z prawej tabeli oraz pasujące rekordy z lewej tabeli
+
+*SELECT column_name(s) FROM table1 (prawa tabelka) RIGHT JOIN table2 lewa tabelka) ON table1.column_name = table2.column_name*
+
+**UNION** służy do łączenia zestawu wyników dwóch lub więcej instrukcji SELECT
+
+*SELECT column_name(s) FROM table1 UNION SELECT colu(s) FROM table2*
+
