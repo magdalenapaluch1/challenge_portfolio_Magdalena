@@ -232,7 +232,7 @@ In testing mobile applications, we can take into account factors such as: batter
 # **Task 5**
 ## Subtask 1
 
-📊✒️Finished course "Kurs SQL od podstaw"(https://www.udemy.com/course/kurs-sql-od-podstaw/)
+📊✒️[Finished course "Kurs SQL od podstaw"](https://www.udemy.com/course/kurs-sql-od-podstaw/)
 
 **Typ zapytania:**
 SELECT/INSERT/UPDATE/DELETE - typ zapytania
