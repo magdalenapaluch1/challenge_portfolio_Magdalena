@@ -242,7 +242,7 @@ SELECT/INSERT/UPDATE/DELETE - typ zapytania
 3. **GROUP BY** - grupowanie rekordów
 4. **ORDER BY** - sortowanie
 
-**SELECT** - wybieranie danych z bazy danych
+🫵 **SELECT** - wybieranie danych z bazy danych
 
 *SELECT column1, column2, ... FROM table_name;*
 
@@ -250,26 +250,26 @@ SELECT/INSERT/UPDATE/DELETE - typ zapytania
 
 *SELECT DISTINCT column1, column2, ... FROM table_name;*
 
-**WHERE** - filtruje rekordy, po zadeklarowaniu warunku
+🗺 **WHERE** - filtruje rekordy, po zadeklarowaniu warunku
 
 *SELECT column1, column2, ... FROM table_name;*
 *WHERE condition;*
 
 **Operatory AND, OR, NOT**
 
-**AND** - wszystkie warunki muszą być prawdą
+🐜 **AND** - wszystkie warunki muszą być prawdą
 
-**OR** - którykolwiek warunek jest PRAWDZIWY
+💥 **OR** - którykolwiek warunek jest PRAWDZIWY
 
-**NOT** - nieprawdziwy warunek
+❌ **NOT** - nieprawdziwy warunek
 
-**IS NULL** - równa zero, pusta kolumna
+0️⃣ **IS NULL** - równa zero, pusta kolumna
 
-**IS NOT NULL** - nie jest równa zerem, pełne kolumny
+🔢 **IS NOT NULL** - nie jest równa zerem, pełne kolumny
 
-**TOP** - liczba rekordów do zwórcenia
+⬆️ **TOP** - liczba rekordów do zwórcenia
 
-**LIMIT** - obsługiwany przez MySQL
+➿ **LIMIT** - obsługiwany przez MySQL
 
 *SELECT column1, column2, ... FROM table_name*
 *WHERE condition1 AND condition2;*
@@ -282,29 +282,29 @@ SELECT/INSERT/UPDATE/DELETE - typ zapytania
 
 *SELECT column_name(s)FROM table_nameWHERE condition LIMIT number;*
 
-**MIN()** najmniejsza wartość z wybranej kolumny
+↘️ **MIN()** najmniejsza wartość z wybranej kolumny
 
-**MAX()** największa wartość z wybranej kolumny
+↗️ **MAX()** największa wartość z wybranej kolumny
 
 *SELECT MIN (column_name) FROM table_name WHERE condition1;*
 
-**COUNT()** - podaje liczbę wierszy spełniających warunek
+⏩ **COUNT()** - podaje liczbę wierszy spełniających warunek
 
 *SELECT COUNT (column_name) FROM table_name WHERE condition1;*
 
-**AVG()** - zwraca średnią wartość kolumny numerycznej
+➗ **AVG()** - zwraca średnią wartość kolumny numerycznej
 
 *SELECT AVG (column_name) FROM table_name WHERE condition1;*
 
-**SUM()** - całkowita suma kolumny numerycznej
+➕ **SUM()** - całkowita suma kolumny numerycznej
 
 *SELECT SUM (column_name) FROM table_name WHERE condition1;*
 
-**LIKE** - w klauzuli WHERE, do wyszukiwania określonego wzorca
+💱 **LIKE** - w klauzuli WHERE, do wyszukiwania określonego wzorca
 
 *SELECT column1, column2, ... FROM table_name WHERE columnN LIKE pattern;*
 
-**BETWEEN** - wybiera wartości z danego zakresu.
+🧍🏾‍♀️🌳🧍🏾 **BETWEEN** - wybiera wartości z danego zakresu.
 
 *SELECT column_name(S) FROM table_name WHERE column_name BETWEEN value1 AND value2;*
 
@@ -313,7 +313,7 @@ nazwa ta zostaje na czas aktualnego zapytania
 
 *SELECT column_name AS alias-name FROM table_name;*
 
-**ORDER BY** - sortowanie zestawu wyników w kolejności rosnącej lub majlejące
+🛒 **ORDER BY** - sortowanie zestawu wyników w kolejności rosnącej lub majlejące
 rosnąco **ASC**, malejąco **DESC**
 
 *SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;*
@@ -333,35 +333,80 @@ Wyszukiwanie stringów zawsze w cudzysłowie
 
 *INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stvanger', 'Norway');*
 
-**UPDATE** służy do aktualizacji istniejących rekordów  w tabeli
+✅ **UPDATE** służy do aktualizacji istniejących rekordów  w tabeli
 
 *UPDATE Customers SET ContactName = 'Alfred Schmidt', City = 'Frankfurt' WHERE CustomerID = 1*
 
-**DELETE** - służy do usuwania istniejących rekordów w tabeli
+⛔️ **DELETE** - służy do usuwania istniejących rekordów w tabeli
 
 *DELETE FROM Customers WHERE CudtomerName = 'Alfreds Futterkiste'*
 
-**GRUOP BY** pozwala na grupowanie rekordów według róznych zasad
+💕**GRUOP BY** pozwala na grupowanie rekordów według róznych zasad
 
 *SELECT COUNT (CustomerID), Country FROM Customers GROUP BY Country;*
 
-**HAVING** zwraca podsumowanie dla całej tabeli, wywołana funkcja GROUP BY
+🧾**HAVING** zwraca podsumowanie dla całej tabeli, wywołana funkcja GROUP BY
 
 *SELECT COUNT (CustomerID), Country FROM Customers GROUP BY Country; HAVING COUNT (CustomerID) >5;*
 
-**INNER JOIN** łączenie wierszy z conajmniej dwóch tabel na podstawie powiązanej między nimi kolumny
+🗄**INNER JOIN** łączenie wierszy z conajmniej dwóch tabel na podstawie powiązanej między nimi kolumny
 
 *SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID*
 
-**LEFT JOIN** zwraca wszystkie rekordy z lewej tabeli oraz pasujące rekordy z prawej tabeli
+◀️ **LEFT JOIN** zwraca wszystkie rekordy z lewej tabeli oraz pasujące rekordy z prawej tabeli
 
 *SELECT column_name(s) FROM table1 (lewa tabelka) LEFT JOIN table2 (prawa tabelka) ON table1.column_name = table2.column_name*
 
-**RIGHT JOIN** zwraca wszystkie rekordy z prawej tabeli oraz pasujące rekordy z lewej tabeli
+▶️ **RIGHT JOIN** zwraca wszystkie rekordy z prawej tabeli oraz pasujące rekordy z lewej tabeli
 
 *SELECT column_name(s) FROM table1 (prawa tabelka) RIGHT JOIN table2 lewa tabelka) ON table1.column_name = table2.column_name*
 
-**UNION** służy do łączenia zestawu wyników dwóch lub więcej instrukcji SELECT
+🅰️ 🅱️ 🆎**UNION** służy do łączenia zestawu wyników dwóch lub więcej instrukcji SELECT
 
 *SELECT column_name(s) FROM table1 UNION SELECT colu(s) FROM table2*
 
+## Subtask 3
+
+1️⃣ Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+💭 SELECT * FROM actors ORDER BY surname;
+
+
+
+2️⃣ Wyświetl film, który powstał w 2019 roku.
+
+💭 SELECT * FROM movies WHERE year_of_production = 2019;
+
+![image](https://user-images.githubusercontent.com/71427633/204321948-b3f12cb1-86f6-411f-a015-f3da7fb5bd4e.png)
+
+3️⃣ Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+💭
+
+4️⃣ Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$ 
+
+💭
+
+5️⃣ Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+💭
+
+6️⃣ Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny. 
+
+💭
+
+7️⃣ Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+💭
+
+8️⃣ Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+💭
+
+9️⃣ Wyświetl dane klienta, który nie ma podanego adresu email.
+
+💭
+
+🔟 Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+💭
