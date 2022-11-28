@@ -322,8 +322,6 @@ rosnąco **ASC**, malejąco **DESC**
 
 *SELECT * FROM categories;*
 
-* - to ALL
-
 Wyszukiwanie stringów zawsze w cudzysłowie
 
 **%** oznacza dowolną literę
