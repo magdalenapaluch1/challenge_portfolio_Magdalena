@@ -429,3 +429,51 @@ Wyszukiwanie stringów zawsze w cudzysłowie
 💭 SELECT * FROM movies WHERE movie_id < 8 AND movie_id > 2 AND price > 9;
 
 ![image](https://user-images.githubusercontent.com/71427633/204328399-f89e3676-f80b-4023-aef8-a782d186ff2c.png)
+
+1️⃣1️⃣ Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+
+💭 UPDATE customers SET surname = "Miler" WHERE customer_id = 3;
+
+
+
+1️⃣2️⃣ Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. 
+      Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+💭
+
+1️⃣3️⃣ Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+💭
+
+1️⃣4️⃣ Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. 
+(wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+💭
+
+1️⃣5️⃣ W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. 
+- Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,
+- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+💭
+
+1️⃣6️⃣ Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+💭
+
+1️⃣7️⃣ Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+💭
+
+1️⃣8️⃣ Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. 
+Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+💭
+
+1️⃣9️⃣ Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
+💭
+
+2️⃣0️⃣ A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, 
+gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+💭
