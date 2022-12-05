@@ -434,46 +434,70 @@ Wyszukiwanie stringów zawsze w cudzysłowie
 
 💭 UPDATE customers SET surname = "Miler" WHERE customer_id = 3;
 
-
+![image](https://user-images.githubusercontent.com/71427633/205694602-a1b211dc-9de1-4700-bc28-da2d5c27faed.png)
 
 1️⃣2️⃣ Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. 
       Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
-💭
+💭 SELECT sale.movie_id, customers.email FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id;
 
-1️⃣3️⃣ Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+![image](https://user-images.githubusercontent.com/71427633/205697231-c8d4fc4f-76ce-4070-a3bc-4ada8bfcd1bf.png)
 
-💭
+1️⃣3️⃣ Na pewno zauważyłaś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+💭 UPDATE customers SET email = 'pati@mail.com' WHERE customer_id=4;
+
+![image](https://user-images.githubusercontent.com/71427633/205697640-66687f61-bddf-41e2-924e-a77e9e6986bf.png)
 
 1️⃣4️⃣ Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. 
 (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
 
-💭
+💭 SELECT sale.movie_id, sale.customer_id, customers.name, customers.surname, movies.title 
+FROM ((sale 
+INNER JOIN customers ON sale.customer_id = customers.customer_id)
+INNER JOIN movies ON sale.movie_id = movies.movie_id);
+
+![image](https://user-images.githubusercontent.com/71427633/205699895-cd56bec1-ce89-498b-88b6-7fe8bdb325b0.png)
 
 1️⃣5️⃣ W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. 
 - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,
 - Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
-💭
+💭 SELECT *, CONCAT(SUBSTRING(name, 1, 2), SUBSTRING(surname, LENGTH(surname), 1)) AS pseudonim FROM customers;
+
+![image](https://user-images.githubusercontent.com/71427633/205709549-139cb15e-4bec-463e-bea2-92d7ad3e035f.png)
 
 1️⃣6️⃣ Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
-💭
+💭 SELECT DISTINCT sale.movie_id, movies.title FROM sale INNER JOIN movies ON sale.movie_id = movies.movie_id;
+
+![image](https://user-images.githubusercontent.com/71427633/205709998-391311d8-3551-40bb-86f9-916403d14dcf.png)
 
 1️⃣7️⃣ Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
 
-💭
+💭 SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name;
+
+![image](https://user-images.githubusercontent.com/71427633/205711051-6dad98ef-d950-4cdb-8f99-245aff3d8539.png)
 
 1️⃣8️⃣ Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. 
 Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
-💭
+💭 UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000;
+
+![image](https://user-images.githubusercontent.com/71427633/205711677-ded4d702-04b6-4f5d-81a3-2233f6e16114.png)
 
 1️⃣9️⃣ Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
-💭
+💭 SELECT cast.actor_id, actors.name, actors.surname, movies.title 
+FROM ((cast 
+INNER JOIN actors ON cast.actor_id = actors.actor_id)
+INNER JOIN movies ON cast.movie_id = movies.movie_id)
+WHERE cast.actor_id = 4;
+
+![image](https://user-images.githubusercontent.com/71427633/205713111-edf971bb-ad67-49be-9854-26e2c99c5cf2.png)
 
 2️⃣0️⃣ A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, 
 gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
 
-💭
+💭 INSERT INTO customers (customer_id, name, surname, email, pseudonim)
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
