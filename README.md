@@ -430,6 +430,9 @@ Wyszukiwanie stringów zawsze w cudzysłowie
 
 ![image](https://user-images.githubusercontent.com/71427633/204328399-f89e3676-f80b-4023-aef8-a782d186ff2c.png)
 
+# **Task 6**
+## Subtask 1
+
 1️⃣1️⃣ Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 
 💭 UPDATE customers SET surname = "Miler" WHERE customer_id = 3;
@@ -501,3 +504,7 @@ gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@
 
 💭 INSERT INTO customers (customer_id, name, surname, email, pseudonim)
 VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
+
+## Subtask 2
+
+Wynik testu Ecru: 13/15
